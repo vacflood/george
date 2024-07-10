@@ -5,7 +5,7 @@ class Gamertag():
         pass
 
     @staticmethod
-    def check(gamertag: str) -> dict:
+    def check(gamertag: str) -> bool:
         url = f"https://gamertag.world/api/check?tag={gamertag}"
         payload = {}
         headers = {
