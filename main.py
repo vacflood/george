@@ -1,6 +1,5 @@
 from   misc.bot      import Bot
 from   misc.config   import Config
-from   misc.gamertag import Gamertag
 
 import asyncio
 
